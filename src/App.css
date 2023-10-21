@@ -1,0 +1,66 @@
+/* App.css */
+
+
+body{
+    background-color: rgb(188, 173, 230);
+}
+
+.App {
+	min-height: 100vh;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 15px;
+	padding: 40px;
+	font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+input {
+	font-size: 20px;
+	width: 75%;
+	height: 50px;
+    margin: 50px auto;
+    border: none;
+    text-align: right;
+    padding: 5px;
+  border-radius: 8px;
+}
+
+input:focus{
+    outline: none;
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 75%;
+    background-color: rgb(255, 255, 255);
+    text-align: right;
+    border: none;
+  }
+  
+  tr, td {
+    text-align: right;
+    padding: 8px;
+    text-align: right;
+    margin: 20px auto;
+  }
+  
+  tr:nth-child(even){background-color: #f2f2f2}
+  
+
+  thead {
+    background-color: #000;
+    color: white;
+    text-align: right;
+    height: 65px;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 20px auto;
+    direction: rtl;
+  }
+
+  
